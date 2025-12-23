@@ -1,0 +1,9 @@
+# Force Unix line endings
+* text=auto eol=lf
+
+# Explicit formats
+*.py     text eol=lf
+*.md     text eol=lf
+*.json   text eol=lf
+*.geojson text eol=lf
+*.html   text eol=lf

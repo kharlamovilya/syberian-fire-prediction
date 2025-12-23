@@ -1,0 +1,18 @@
+# Python virtual environment
+.venv/
+venv/
+
+# PyCharm / IntelliJ
+.idea/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Outputs
+outputs/
