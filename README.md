@@ -7,29 +7,13 @@ This project is a **Python-based GIS wildfire simulation platform** focused on f
 It combines **satellite vegetation data (NDVI)** with **real-time weather information** to assess wildfire risk and simulate wind-driven fire spread on an interactive map.
 
 The system is designed as both:
-- an **analytical tool** for understanding wildfire dynamics  
+- an **analytical tool** for understanding wildfire dynamics (can only be used for educational purposes)  
 - an **educational platform** for GIS, simulation, and environmental modeling
 <img width="1500" height="810" alt="image" src="https://github.com/user-attachments/assets/c2549d5b-5809-4b41-9534-3248c2240a10" />
 
 ---
 
 ## Running the Project
-
-### 🔥 Generate Fire Ignition & Spread Map
-
-To generate the **interactive map of fire ignitions and simulated spread**, run:
-
-```bash
-python main.py
-```
-
-This will:
-- Load prepared regional data
-- Load ignition points enriched with weather data
-- Run the fire spread simulation
-- Generate an interactive **HTML map** showing ignition points and spread dynamics
-
----
 
 ## ⚠️ Required One-Time Preparation Steps
 
@@ -58,7 +42,21 @@ This script:
 - Saves the enriched ignition dataset required for simulation
 
 ---
+### 🔥 Generate Fire Ignition & Spread Map
 
+To generate the **interactive map of fire ignitions and simulated spread**, run:
+
+```bash
+python main.py
+```
+
+This will:
+- Load prepared regional data
+- Load ignition points enriched with weather data
+- Run the fire spread simulation
+- Generate an interactive **HTML map** showing ignition points and spread dynamics
+
+---
 ## ✅ Recommended Execution Order
 
 ```text
