@@ -32,6 +32,8 @@ This script:
 ---
 
 ### 2️⃣ Fetch & Enrich Weather Data
+Weather data is retrieved using the **WeatherAPI** service:  
+👉 https://www.weatherapi.com/
 ```bash
 python weather_loader.py
 ```
