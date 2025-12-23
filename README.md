@@ -93,7 +93,10 @@ The simulation propagates fire **iteratively over multiple steps**.
 ## Project Structure
 
 ```
-.
+src/
+├── scripts/
+├────────── prepare_regions.py
+├────────── weather_loader.py 
 ├── config.py
 ├── data_loader.py
 ├── ignition_point.py
